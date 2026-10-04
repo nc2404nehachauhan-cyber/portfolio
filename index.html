@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neha Chauhan | Senior Performance Marketer</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Playfair Display + Plus Jakarta Sans + Alex Brush + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-cream: #F5EFEB;
+      --card-cream: #EDE4D8;
+      --card-inner: #FAF6F0;
+      --brown-deep: #2A1D15;
+      --brown-mid: #543D2F;
+      --brown-light: #7E6554;
+      --border-color: #D9CEBE;
+      --accent: #A87E5E;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-cream);
+      color: var(--brown-deep);
+    }
+
+    .font-script {
+      font-family: 'Alex Brush', cursive;
+    }
+
+    .font-serif-title {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .nav-active {
+      border-bottom: 3px solid var(--brown-deep);
+      color: var(--brown-deep);
+    }
+
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: rgba(217, 206, 190, 0.25);
+      border-radius: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #C4B5A0;
+      border-radius: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: var(--brown-light);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-[#E0D5C3] selection:text-[#2A1D15]">
+
+  <!-- Sticky Header / Navigation -->
+  <header class="sticky top-0 z-40 bg-[#F5EFEB]/95 backdrop-blur-md border-b border-[#D9CEBE]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <h1 class="font-serif-title text-xl sm:text-2xl font-bold text-[#2A1D15]">Neha Chauhan</h1>
+        <span class="text-xs text-[#7E6554] font-semibold hidden sm:inline">Senior Performance Marketer</span>
+      </div>
+      <nav class="flex items-center gap-4 sm:gap-6 text-xs sm:text-sm font-semibold">
+        <a href="#case-study" class="text-[#7E6554] hover:text-[#2A1D15] transition">Case Study</a>
+        <a href="#creative" class="text-[#7E6554] hover:text-[#2A1D15] transition">Creative Suite</a>
+        <a href="#sample-article" class="text-[#7E6554] hover:text-[#2A1D15] transition">Sample Article</a>
+        <a href="#about" class="text-[#7E6554] hover:text-[#2A1D15] transition">About</a>
+        <a href="portfolio/" class="px-3 py-1.5 rounded-lg bg-[#2A1D15] text-[#FAF6F0] hover:bg-[#3D2A1F] transition text-xs font-semibold">
+          Download PDF
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1">
+    <!-- HERO SECTION -->
+    <section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <div class="bg-[#FAF6F0] p-8 sm:p-12 rounded-2xl border border-[#D9CEBE] shadow-sm">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+          <div class="lg:col-span-2">
+            <h2 class="font-script text-4xl sm:text-5xl text-[#7E6554] mb-2">Portfolio</h2>
+            <h1 class="font-serif-title text-4xl sm:text-6xl font-bold text-[#2A1D15] mb-4">Neha Chauhan</h1>
+            <div class="inline-block px-4 py-2 bg-[#EDE4D8] rounded-lg border border-[#D9CEBE] mb-6">
+              <p class="text-sm font-semibold text-[#2A1D15]">CASE STUDY: BLUE BOTTLE COFFEE</p>
+            </div>
+            <p class="text-base sm:text-lg text-[#543D2F] max-w-2xl leading-relaxed">
+              Executive performance marketer with 7+ years scaling profitable acquisition through value-tiered architecture, algorithmic bidding & server-side data hygiene. Specialized in multi-tier Google & Meta ad engines, automated creative testing, and enterprise unit economics.
+            </p>
+          </div>
+
+          <aside class="lg:col-span-1 p-4 bg-[#EDE4D8] rounded-lg border border-[#D9CEBE]">
+            <div class="space-y-4">
+              <div>
+                <p class="text-xs text-[#7E6554] font-semibold">Quick Snapshot</p>
+                <h3 class="font-bold text-xl text-[#2A1D15]">Digital Media Senior Associate</h3>
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                <div class="p-2 bg-[#FAF6F0] rounded">
+                  <div class="mono text-lg font-bold">-34%</div>
+                  <div class="text-[11px] text-[#543D2F]">Blended CAC</div>
+                </div>
+                <div class="p-2 bg-[#FAF6F0] rounded">
+                  <div class="mono text-lg font-bold">+31%</div>
+                  <div class="text-[11px] text-[#543D2F]">QoQ Growth</div>
+                </div>
+              </div>
+
+              <div class="pt-2">
+                <a href="portfolio/" class="block w-full text-center px-3 py-2 bg-[#2A1D15] text-[#FAF6F0] font-semibold rounded hover:bg-[#3D2A1F]">Download Case Study PDF</a>
+                <a href="resume/" class="block w-full text-center mt-2 px-3 py-2 border border-[#D9CEBE] bg-white/5 text-[#2A1D15] font-semibold rounded hover:bg-white/10">Download Resume</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY METRICS SECTION -->
+    <section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+        <div class="p-5 bg-[#EDE4D8] rounded-xl border border-[#D9CEBE]">
+          <div class="mono text-3xl sm:text-4xl font-bold text-[#2A1D15]">-34%</div>
+          <div class="text-xs font-bold text-[#2A1D15] mt-2">Blended CAC</div>
+          <div class="text-[11px] text-[#7E6554]">$44 down to $28.60</div>
+        </div>
+        <div class="p-5 bg-[#EDE4D8] rounded-xl border border-[#D9CEBE]">
+          <div class="mono text-3xl sm:text-4xl font-bold text-[#2A1D15]">+31%</div>
+          <div class="text-xs font-bold text-[#2A1D15] mt-2">QoQ Growth</div>
+          <div class="text-[11px] text-[#7E6554]">Subscriber base scaled</div>
+        </div>
+        <div class="p-5 bg-[#EDE4D8] rounded-xl border border-[#D9CEBE]">
+          <div class="mono text-3xl sm:text-4xl font-bold text-[#2A1D15]">58.4%</div>
+          <div class="text-xs font-bold text-[#2A1D15] mt-2">Month-2 Retention</div>
+          <div class="text-[11px] text-[#7E6554]">Lifted from 38%</div>
+        </div>
+        <div class="p-5 bg-[#EDE4D8] rounded-xl border border-[#D9CEBE]">
+          <div class="mono text-3xl sm:text-4xl font-bold text-[#2A1D15]">48 Days</div>
+          <div class="text-xs font-bold text-[#2A1D15] mt-2">Cash Payback</div>
+          <div class="text-[11px] text-[#7E6554]">Compressed from 90+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDY SECTION -->
+    <section id="case-study" class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="font-serif-title text-3xl sm:text-4xl font-bold text-[#2A1D15] mb-8">Case Study: Blue Bottle Coffee</h2>
+      
+      <div class="space-y-8">
+        <!-- BRAND OVERVIEW -->
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <h3 class="font-serif-title text-2xl font-bold text-[#2A1D15] mb-4">Brand Overview & Business Goal</h3>
+          <div class="grid md:grid-cols-2 gap-6 text-sm text-[#2A1D15] leading-relaxed">
+            <div>
+              <h4 class="font-bold text-base mb-2">Context</h4>
+              <p class="mb-3">Blue Bottle built its cult following on peak freshness—beans shipped within 48 hours of roasting. While physical cafes excel at premium branding, their D2C channel faces a challenge: selling premium-priced perishable goods to an audience used to cheap supermarket bags.</p>
+              <p><strong>Goal:</strong> Stop losing money on one-time buyers and turn website visitors into steady monthly subscribers.</p>
+            </div>
+            <div class="space-y-2">
+              <div class="p-4 bg-[#EDE4D8] rounded-lg">
+                <p class="text-xs font-bold text-[#7E6554] mb-1">LOWER ACQUISITION</p>
+                <p class="font-semibold">Cut CAC from $44 to under $30</p>
+              </div>
+              <div class="p-4 bg-[#EDE4D8] rounded-lg">
+                <p class="text-xs font-bold text-[#7E6554] mb-1">GROW SUBSCRIPTIONS</p>
+                <p class="font-semibold">+25% quarterly growth</p>
+              </div>
+              <div class="p-4 bg-[#EDE4D8] rounded-lg">
+                <p class="text-xs font-bold text-[#7E6554] mb-1">IMPROVE RETENTION</p>
+                <p class="font-semibold">Month-2 retention to 55%+</p>
+              </div>
+              <div class="p-4 bg-[#EDE4D8] rounded-lg">
+                <p class="text-xs font-bold text-[#7E6554] mb-1">FASTER PAYBACK</p>
+                <p class="font-semibold">Break even within 60 days</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STRATEGY: AUDIENCE & FUNNEL -->
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <h3 class="font-serif-title text-2xl font-bold text-[#2A1D15] mb-4">Audience Segmentation & Customer Funnel</h3>
+          <div class="grid md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <h4 class="font-bold text-base mb-3">Three Core Audience Segments</h4>
+              <ul class="space-y-3 text-sm text-[#2A1D15]">
+                <li><strong class="text-[#543D2F]">Home Brewer (Primary):</strong> Remote workers with grinders—fastest converters for subscriptions</li>
+                <li><strong class="text-[#543D2F]">Cafe Regular (Warm):</strong> Blue Bottle customers who make average coffee at home</li>
+                <li><strong class="text-[#543D2F]">Gifter & Explorer (Seasonal):</strong> Holiday shoppers and gift-seekers</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-bold text-base mb-3">Four-Stage Funnel</h4>
+              <ul class="space-y-2.5 text-xs text-[#2A1D15]">
+                <li class="p-3 bg-[#EDE4D8] rounded"><strong>TOP:</strong> High-intent Google Search + Shopping</li>
+                <li class="p-3 bg-[#EDE4D8] rounded"><strong>MIDDLE:</strong> 30-sec brew diagnostic quiz</li>
+                <li class="p-3 bg-[#EDE4D8] rounded"><strong>BOTTOM:</strong> $12 sampler kit retargeting</li>
+                <li class="p-3 bg-[#EDE4D8] rounded"><strong>RETENTION:</strong> Email/SMS lifecycle flows</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- GOOGLE ADS STRUCTURE -->
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <h3 class="font-serif-title text-2xl font-bold text-[#2A1D15] mb-4">Google Ads: Value-Tiered Framework</h3>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold text-sm text-[#2A1D15] mb-2">TIER 1: Subscription Search</p>
+              <p class="text-xs text-[#543D2F]">High-intent keywords tied to recurring buys. Target CPA optimized for subscription events only.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold text-sm text-[#2A1D15] mb-2">TIER 2: Brand Defense</p>
+              <p class="text-xs text-[#543D2F]">Exact-match brand keywords with strict bid caps. Prevent competitor poaching.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold text-sm text-[#2A1D15] mb-2">TIER 3: Performance Max</p>
+              <p class="text-xs text-[#543D2F]">Custom subscription-only feeds. Exclude low-margin products and accessories.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold text-sm text-[#2A1D15] mb-2">TIER 4: Demand Gen</p>
+              <p class="text-xs text-[#543D2F]">Retarget 60+ sec site visitors. 15-sec unboxing video with 1-click sampler offer.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- META & CREATIVE STRATEGY -->
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <h3 class="font-serif-title text-2xl font-bold text-[#2A1D15] mb-4">Meta Campaign Structure & Creative Strategy</h3>
+          <div class="space-y-4 text-sm text-[#2A1D15]">
+            <div class="grid md:grid-cols-3 gap-4 mb-4">
+              <div class="p-4 bg-[#EDE4D8] rounded-lg">
+                <p class="font-bold mb-2">Top of Funnel</p>
+                <p class="text-xs text-[#543D2F]">Advantage+ Shopping with broad targeting. Creative does the qualification work.</p>
+              </div>
+              <div class="p-4 bg-[#EDE4D8] rounded-lg">
+                <p class="font-bold mb-2">Creative Sandbox</p>
+                <p class="text-xs text-[#543D2F]">3-5 new hooks tested weekly. Graduate winners hitting 35% thumbstop + sub-$30 CPA.</p>
+              </div>
+              <div class="p-4 bg-[#EDE4D8] rounded-lg">
+                <p class="font-bold mb-2">Warm Retargeting</p>
+                <p class="text-xs text-[#543D2F]">30-day visitors + quiz abandoners. Address purchase hesitation with unboxing clips.</p>
+              </div>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-2">Key Creative Moves:</p>
+              <ul class="space-y-1.5 text-xs text-[#543D2F]">
+                <li>• <strong>Split-screen freshness:</strong> Supermarket vs. 48-hour roast date—instantly anchored value</li>
+                <li>• <strong>Visual staging:</strong> Positioned products alongside enthusiast gear (Fellow kettles, burr grinders)</li>
+                <li>• <strong>Entry-tier messaging:</strong> $12 Discovery Sampler + 30-sec brew quiz to lower trial friction</li>
+                <li>• <strong>De-risk subscriptions:</strong> Demo subscription controls—skip, swap, cancel anytime in one click</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- POST-CLICK OPTIMIZATION -->
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <h3 class="font-serif-title text-2xl font-bold text-[#2A1D15] mb-4">Landing Page & Post-Click Experience</h3>
+          <div class="grid sm:grid-cols-2 gap-4 text-sm text-[#2A1D15]">
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-2">Brew Quiz</p>
+              <p class="text-xs text-[#543D2F]">3-step diagnostic (brew method, flavor, daily cups). Doubled visit-to-cart rates.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-2">Sampler Lander</p>
+              <p class="text-xs text-[#543D2F]">Single-product $12 sampler page. Zero navigation. Persistent 1-click checkout.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-2">Checkout Clarity</p>
+              <p class="text-xs text-[#543D2F]">Transparent subscription controls built into cart drawer. One-click management.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-2">Mobile Speed</p>
+              <p class="text-xs text-[#543D2F]">Compressed to 1.4s. Improved Landing Page Experience to "Above Average."</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TRACKING & MEASUREMENT -->
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <h3 class="font-serif-title text-2xl font-bold text-[#2A1D15] mb-4">Tracking, Measurement & Analytics Stack</h3>
+          <div class="space-y-3 text-sm text-[#2A1D15]">
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-1">Server-Side GTM + Meta CAPI</p>
+              <p class="text-xs text-[#543D2F]">90% event match quality. Bypass iOS blind spots. Recovered lost checkout signals.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-1">Value-Based Bidding</p>
+              <p class="text-xs text-[#543D2F]">Predicted 60-day LTV tags sent to Google & Meta. Prioritized multi-bag subscribers.</p>
+            </div>
+            <div class="p-4 bg-[#EDE4D8] rounded-lg">
+              <p class="font-bold mb-1">Executive Dashboard</p>
+              <p class="text-xs text-[#543D2F]">Looker Studio + BigQuery. Unified ad spend with Stripe/Shopify backend data. Real-time unit economics.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RESULTS -->
+        <div class="bg-[#2A1D15] text-[#FAF6F0] p-8 rounded-xl">
+          <h3 class="font-serif-title text-2xl font-bold mb-6">Business Impact</h3>
+          <ul class="space-y-3 text-sm leading-relaxed">
+            <li>✓ <strong>Cut Blended CAC by 34%:</strong> $44 → $28.60 (beat $30 goal)</li>
+            <li>✓ <strong>Scaled Subscriber Growth +31% QOQ</strong> without margin-eroding discounts</li>
+            <li>✓ <strong>Expanded Month-2 Retention to 58.4%</strong> (from 38% baseline)</li>
+            <li>✓ <strong>Compressed Cash Payback to 48 days</strong> (from 90+ days)</li>
+            <li>✓ <strong>Built enterprise-grade attribution:</strong> Server-Side CAPI, Enhanced Conversions, BigQuery dashboard</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREATIVE EXAMPLES SECTION -->
+    <section id="creative" class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="font-serif-title text-3xl sm:text-4xl font-bold text-[#2A1D15] mb-8">Paid Creative Suite: Enterprise Examples</h2>
+      
+      <div class="grid lg:grid-cols-2 gap-6">
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <p class="text-xs font-bold text-[#7E6554] uppercase mb-2">Luxury Automotive</p>
+          <h3 class="font-serif-title text-xl font-bold text-[#2A1D15] mb-4">Mercedes-Benz & Audi</h3>
+          <div class="space-y-3 text-xs text-[#543D2F]">
+            <p><strong>Headline:</strong> "The All-New Mercedes C-Class | Precision German Engineering | Book A VIP Test Drive"</p>
+            <p><strong>Description:</strong> "Uncompromising safety, bespoke interiors, and refined power. Build your Mercedes online. Discover lease incentives and tailor your custom build. Book your private showroom drive."</p>
+            <div class="pt-3 border-t border-[#D9CEBE]">
+              <p class="text-xs text-[#2A1D15] font-semibold mb-1">Sitelinks:</p>
+              <p>Build & Price Online · Reserve A VIP Test Drive · Certified Pre-Owned · Locate Dealership</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE]">
+          <p class="text-xs font-bold text-[#7E6554] uppercase mb-2">Enterprise Cloud</p>
+          <h3 class="font-serif-title text-xl font-bold text-[#2A1D15] mb-4">Microsoft Enterprise</h3>
+          <div class="space-y-3 text-xs text-[#543D2F]">
+            <p><strong>Headline:</strong> "Microsoft Cloud Solutions | Scale With Azure Enterprise | Secure Hybrid Cloud Tools"</p>
+            <p><strong>Description:</strong> "Empower your global teams with secure cloud infrastructure and intelligent AI analytics. Protect sensitive enterprise assets with multi-layered, zero-trust cloud architecture."</p>
+            <div class="pt-3 border-t border-[#D9CEBE]">
+              <p class="text-xs text-[#2A1D15] font-semibold mb-1">Sitelinks:</p>
+              <p>Start 30-Day Azure Trial · Commercial Surface PCs · Zero-Trust Security · IT Consultation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSIGHTS / ARTICLE SECTION -->
+    <section id="sample-article" class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="font-serif-title text-3xl sm:text-4xl font-bold text-[#2A1D15] mb-8">Sample Article: Don't Copy Their Blueprint</h2>
+
+      <div class="bg-[#FAF6F0] p-8 sm:p-10 rounded-xl border border-[#D9CEBE] max-w-3xl">
+        <pre class="whitespace-pre-wrap text-sm text-[#2A1D15] leading-relaxed">ARTICLE
+DON'T COPY THEIR
+BLUEPRINT: WHY
+GOOD ADVICE NEEDS
+YOUR REALITY ESSAY
+
+I love reading self-help books and looking for inspiration in the biographies
+of successful people. After all, it's always a pleasure to look at problems
+from different points of view and get some motivation inside. More over,
+there is nothing better than finding a new approach in an attempt to
+achieve success. However, the more I read the self-help books, the more I
+realized that all those authors are just ordinary people like me.
+I mean, you can't believe that someone could write something absolutely
+incredible, which could be applied in any situation in life. All of the advice i
+n the books is just a personal opinion of the author about what he would do in
+a certain situation.
+That's why there is a common mistake that people usually make while looking
+for inspiration. It's a mistake to believe that some universal approach written
+in the books could be successfully applied in real life.
+Advice that Seems Good and Motivating Could Be Dangerous
+As a rule, the advice that seems good and motivating could be dangerous
+and even deadly for someone's life if it is inappropriate for a person and his
+or her real life situation.
+For instance, there is a popular advice to quit your boring 9-to-5 job in order
+to chase freedom. It may be good for someone who has an emergency fund,
+no children to feed, and some financial security in order to live a decent life.
+However, I don't think that it could be applied in everyone's life. For example,
+for me, my 9-to-5 job is my chance to earn money to pay rent, to buy some
+groceries, and to have a possibility to do what I really want in life. Therefore
+, I wouldn't risk quitting my job as that would jeopardize my family life only
+because of somebody's or some book's advice.
+
+In conclusion, there are many reasons why it is a mistake to believe in the
+advice from books or magazines. I agree that it is always a good idea to look
+for inspiration and different approaches to problem-solving in various places
+including the Internet and books. However, it is a mistake to believe that
+some advice could be applied universally. Some advice is good, but it is not
+universal and could be good only for some people in their specific situations.
+The same goes for technology and focus. A famous writer would suggest
+giving up Instagram and social media to gain focus. It makes sense for
+someone who is already an established writer and does not rely on social
+media to earn their bread and butter.
+If you have a business or work from home doing freelance jobs, social media
+is your primary source of clients. It is your platform, your medium to connect
+to people and make them interested in your work so that they end up buying
+your product or service. You cannot give up social media on the suggestions
+of a writer just because he gained success by doing so. Context is a critical
+factor when it comes to giving advice.
+The same goes with money. We see so many rich and famous people on
+television, saying money doesn't matter and that it cannot buy happiness. It
+might seem true for someone who has more money than they need, someone
+who has already crossed the threshold of financial security.
+But for someone who has struggled to feed themselves or their family, money
+means life. It is not a frivolous thing to them. It is a hundred thousand rupees
+for a poor person. They cannot just throw away the idea of money and say it
+does not matter. It is not practical. What these people fail to understand is
+that things do not have intrinsic value. They only have relative value.</pre>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="font-serif-title text-3xl sm:text-4xl font-bold text-[#2A1D15] mb-8">About Me</h2>
+      
+      <div class="grid lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2">
+          <div class="bg-[#FAF6F0] p-6 sm:p-8 rounded-xl border border-[#D9CEBE] space-y-4">
+            <div>
+              <h3 class="font-bold text-lg text-[#2A1D15] mb-2">Professional Journey</h3>
+              <p class="text-sm text-[#2A1D15] leading-relaxed mb-3">
+                I started my digital marketing career in 2019 right out of college, joining <strong>Cognizant</strong> as an entry-level associate. I spent 18 months learning Google Ads fundamentals—building ad assets, managing daily operations, and ensuring policy compliance. That hands-on foundation led to a promotion to <strong>Senior Process Executive</strong>, where I ran acquisition campaigns directly and mentored incoming team members.
+              </p>
+              <p class="text-sm text-[#2A1D15] leading-relaxed">
+                Today, as a <strong>Digital Media Senior Associate at Google Operations Center</strong>, I manage large-scale Search, Performance Max, and Demand Gen campaigns across global portfolios. My focus is simple: make ad spend work harder by crafting high-impact creatives, resolving complex troubleshooting queries, and fixing tracking glitches with GTM.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-[#D9CEBE]">
+              <h3 class="font-bold text-lg text-[#2A1D15] mb-3">Technical Toolkit</h3>
+              <div class="grid sm:grid-cols-2 gap-3">
+                <div class="p-3 bg-[#EDE4D8] rounded-lg">
+                  <p class="text-xs font-bold text-[#7E6554] mb-1">PAID ACQUISITION</p>
+                  <p class="text-xs text-[#543D2F]">Google Search, PMax, Demand Gen, Meta Advantage+</p>
+                </div>
+                <div class="p-3 bg-[#EDE4D8] rounded-lg">
+                  <p class="text-xs font-bold text-[#7E6554] mb-1">SERVER-SIDE TRACKING</p>
+                  <p class="text-xs text-[#543D2F]">GTM, Meta CAPI, Google Enhanced Conversions</p>
+                </div>
+                <div class="p-3 bg-[#EDE4D8] rounded-lg">
+                  <p class="text-xs font-bold text-[#7E6554] mb-1">ANALYTICS & DATA</p>
+                  <p class="text-xs text-[#543D2F]">GA4, SQL, BigQuery, Looker Studio</p>
+                </div>
+                <div class="p-3 bg-[#EDE4D8] rounded-lg">
+                  <p class="text-xs font-bold text-[#7E6554] mb-1">POST-CLICK CRO</p>
+                  <p class="text-xs text-[#543D2F]">Diagnostic Quizzes, A/B Testing, Landers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#2A1D15] text-[#FAF6F0] p-6 sm:p-8 rounded-xl space-y-4">
+          <h3 class="font-bold text-lg">Beyond the Dashboard</h3>
+          <p class="text-xs text-gray-300 leading-relaxed">
+            Early riser—usually up by 6-8 AM. I recharge with creative projects, cooking, and Formula 1 weekends.
+          </p>
+          <ul class="space-y-2 text-xs text-gray-300">
+            <li><strong>Creative Detours:</strong> Writing & hands-on craft projects</li>
+            <li><strong>Good Food:</strong> Experimenting with recipes and cafes</li>
+            <li><strong>Race Weekends:</strong> Following Formula 1</li>
+          </ul>
+          <div class="pt-4 border-t border-white/20">
+            <p class="font-bold text-sm mb-3">Let's Connect</p>
+            <div class="space-y-2">
+              <a href="mailto:neha.chauhan@example.com" class="block px-3 py-2 bg-[#FAF6F0] text-[#2A1D15] font-semibold rounded text-xs text-center hover:bg-white transition">
+                Email Me
+              </a>
+              <a href="https://www.linkedin.com/in/ne-chauhan/" target="_blank" class="block px-3 py-2 bg-white/20 text-white font-semibold rounded text-xs text-center hover:bg-white/30 transition">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Clean Footer -->
+  <footer class="border-t border-[#D9CEBE] py-6 bg-[#F5EFEB] mt-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-2">
+      <p class="text-xs text-[#7E6554]">© 2026 Neha Chauhan · Senior Performance Marketer</p>
+      <p class="text-xs text-[#7E6554]">Scaling Profitable Acquisition Through Strategic Architecture, Creative Testing & Data Hygiene</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll functionality for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href !== '#') {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
