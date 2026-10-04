@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Download</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#F5EFEB;color:#2A1D15;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+    a{color:#A87E5E}
+  </style>
+</head>
+<body>
+  <div>
+    <p>Preparing your download…</p>
+    <a id="dl" href="../Neha_Chauhan_Resume.pdf" download style="display:none">Download</a>
+  </div>
+  <script>
+    (function(){
+      const a = document.getElementById('dl');
+      try{
+        // Programmatically click an anchor with the download attribute to trigger save dialog
+        a.click();
+      }catch(e){}
+      // Fallback UI after a short delay
+      setTimeout(()=>{
+        document.body.innerHTML = '<div style="text-align:center"><p>If the download did not start, <a href="../Neha_Chauhan_Resume.pdf">click here to download the resume</a>.</p></div>';
+      }, 1200);
+    })();
+  </script>
+</body>
+</html>
